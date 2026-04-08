@@ -1,0 +1,29 @@
+node_modules/
+dist/
+.garrison/
+*.js
+*.js.map
+*.d.ts
+!jest.config.js
+.env
+.env.*
+auth/
+
+# Agent / IDE config
+.claude/
+
+# Diagnostic HTML snapshots (ephemeral debug artifacts)
+samples/
+
+# Scratch files
+example*.txt
+
+# Research notebooks (local data, not part of the public project)
+notebooks/
+
+# AI agent meta-files (local orchestration, not part of the public project)
+MEMORY.md
+SOUL.md
+progress.md
+CLAUDE.md
+.augment/
