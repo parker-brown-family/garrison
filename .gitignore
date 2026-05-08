@@ -9,8 +9,9 @@ dist/
 .env.*
 auth/
 
-# Agent / IDE config
-.claude/
+# Agent / IDE config — exclude personal config but ship the project slash command
+.claude/*
+!.claude/commands/
 
 # Diagnostic HTML snapshots (ephemeral debug artifacts)
 samples/
